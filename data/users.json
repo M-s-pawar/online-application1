@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Manish",
+        "email": "mp9989304@gmail.com",
+        "mobile": "8088960213",
+        "gender": "Male",
+        "course": "CSE"
+    },
+    {
+        "name": "usman",
+        "email": "ualibh788@gmail.com",
+        "mobile": "7845962134",
+        "gender": "Male",
+        "course": "bcom"
+    },
+    {
+        "name": "tejas",
+        "email": "tt9989304@gmail.com",
+        "mobile": "4567891234",
+        "gender": "Female",
+        "course": "bcom"
+    }
+]

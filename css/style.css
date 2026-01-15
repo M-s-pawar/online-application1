@@ -1,0 +1,120 @@
+/* ===== Reset & Base ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(120deg, #1e88e5, #6dd5fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Main Containers ===== */
+.form-container,
+.result-box {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Headings ===== */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* ===== Form Elements ===== */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    border-color: #1e88e5;
+    outline: none;
+}
+
+/* ===== Buttons ===== */
+button,
+.back-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #1e88e5;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover,
+.back-btn:hover {
+    background: #1565c0;
+}
+
+/* ===== Tables (Review Page) ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+table td:first-child {
+    font-weight: bold;
+    color: #444;
+}
+
+/* ===== Success & Error Messages ===== */
+.success {
+    color: green;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error {
+    color: #b71c1c;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+    .form-container,
+    .result-box {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
